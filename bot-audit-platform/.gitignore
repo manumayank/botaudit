@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Database files — never commit production audit DBs
+*.db
+*.db-wal
+*.db-shm
+data/
+
+# Config with secrets
+config.json
+.env
+*.env
+
+# Session transcripts — may contain sensitive client conversations
+sessions/
+*.jsonl
+
+# Logs
+*.log
+logs/
+
+# Temp files from claude-worker.sh
+/tmp/claude_raw_output.txt
+/tmp/prompt_*.txt
+/tmp/result_*.json
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

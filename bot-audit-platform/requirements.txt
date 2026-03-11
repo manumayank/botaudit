@@ -1,0 +1,10 @@
+# Bot Audit Platform — Python dependencies
+#
+# Zero external runtime dependencies.
+# Everything uses Python stdlib: sqlite3, json, urllib, uuid, re, pathlib.
+#
+# Python 3.9+ required.
+#
+# Optional: install these for development/testing only
+# pytest>=7.0
+# black>=23.0
